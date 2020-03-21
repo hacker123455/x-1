@@ -553,14 +553,14 @@ local function IMMHKYV_fake_script() -- TextBox.Script
 	
 	script.Parent.Parent.TextButton.MouseButton1Click:Connect(function()
 		local FuckenMint = script.Parent.Text
-		if FuckenMint == "oksoireallygotanepicgamermoment" or FuckenMint == "antepsucugu1920" or FuckenMint == "muhammedemirpro123" or FuckenMint == "penis123" or FuckenMint == "burayıdegistirrrr" or FuckenMint == "gaaayaayyayya" or FuckenMint == "bubububufakekek" or FuckenMint == "wdasd" or FuckenMint == "wansdunw" or FuckenMint == "yalansoyleme" or FuckenMint == "ohyeahhhhh" or FuckenMint == "wddddssssaaaaa" or FuckenMint == "h5L5pVSMjkTL6bQY" or FuckenMint == "asdwddfddasdsasdd"  or FuckenMint == "Mrcow" or FuckenMint == "13e956efc85e0432bc615684688e6be17ff83bca"  then
+		if FuckenMint == "oksoireallygotanepicgamermoment" or FuckenMint == "antepsucugu1920" or FuckenMint == "muhammedemirpro123" or FuckenMint == "penis123" or FuckenMint == "burayıdegistirrrr" or FuckenMint == "gaaayaayyayya" or FuckenMint == "bubububufakekek" or FuckenMint == "wdasd" or FuckenMint == "wansdunw" or FuckenMint == "yalansoyleme" or FuckenMint == "ohyeahhhhh" or FuckenMint == Onurada" or FuckenMint == "h5L5pVSMjkTL6bQY" or FuckenMint == "asdwddfddasdsasdd"  or FuckenMint == "Mrcow" or FuckenMint == "13e956efc85e0432bc615684688e6be17ff83bca"  then
 		    script.Parent.Text = "insanlari Sikmeye Baslayabilirsiniz!"
 		    wait(1)
 		    script.Parent.Parent.Parent:TweenPosition(UDim2.new(-0.2977722853, 0, 0.495717347, 0), "In", "Sine", 1)
 		    wait(1)
 		    EnableGui()
 			script.Parent.Parent.Parent.Parent:Destroy()
-		elseif FuckenMint == "OnurAda" or FuckenMint == "Onurada" then
+		elseif FuckenMint == "OnurAda" or FuckenMint == "wasdwd" then
 			game.StarterGui:SetCore("SendNotification", {
 			    Title = "Sikik";
 			    Text = "Blacklistlenmissin yarram. git kendine yeni bir script bul";
