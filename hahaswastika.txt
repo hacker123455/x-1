@@ -1,4 +1,4 @@
-----------------------created by Ry??n#5897----------------------
+----------------------created by Ry𝚊n#5897----------------------
 
 local swastika = Instance.new("ScreenGui")
 swastika.Parent = game.Players.LocalPlayer.PlayerGui
@@ -31,11 +31,11 @@ laugh.TextWrapped = true
 laugh.Parent = main
 
 laugh.MouseButton1Click:Connect(function()
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("?????????????", "All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("????????????????", "All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("????????????????", "All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("???????????", "All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("????????????????", "All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("????????????????", "All")
-	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("?????????????", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚪🔴🔴⚪⚪⚪⚪🔴", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚪🔴🔴⚪🔴🔴🔴🔴", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚪🔴🔴⚪🔴🔴🔴🔴", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚪⚪⚪⚪⚪⚪⚪🔴", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚪🔴🔴⚪🔴", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴🔴🔴🔴⚪🔴🔴⚪🔴", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🔴⚪⚪⚪⚪🔴🔴⚪🔴", "All")
 end)
