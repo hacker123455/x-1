@@ -1,0 +1,41 @@
+----------------------created by Ry??n#5897----------------------
+
+local swastika = Instance.new("ScreenGui")
+swastika.Parent = game.Players.LocalPlayer.PlayerGui
+swastika.ResetOnSpawn = false
+
+local main = Instance.new("Frame")
+main.Draggable = true
+main.Selectable = true
+main.BackgroundColor3 = Color3.new(0.647059, 0.647059, 0.647059)
+main.BorderSizePixel = 0
+main.Position = UDim2.new(0.771675467, 0, 0.793000102, 0)
+main.Size = UDim2.new(0, 124, 0, 86)
+main.Parent = swastika
+
+local laugh = Instance.new("TextButton")
+laugh.Active = true
+laugh.BackgroundColor3 = Color3.new(0.741176, 0.741176, 0.741176)
+laugh.BorderColor3 = Color3.new(0.619608, 0.619608, 0.619608)
+laugh.BorderSizePixel = 5
+laugh.Position = UDim2.new(0.209677413, 0, 0.0818604827, 0)
+laugh.Selectable = true
+laugh.Size = UDim2.new(0, 71, 0, 71)
+laugh.Style = Enum.ButtonStyle.Custom
+laugh.Font = Enum.Font.Code
+laugh.FontSize = Enum.FontSize.Size14
+laugh.Text = "do the funny swastika"
+laugh.TextColor3 = Color3.new(0, 0, 0)
+laugh.TextScaled = true
+laugh.TextWrapped = true
+laugh.Parent = main
+
+laugh.MouseButton1Click:Connect(function()
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("?????????????", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("????????????????", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("????????????????", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("???????????", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("????????????????", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("????????????????", "All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("?????????????", "All")
+end)
