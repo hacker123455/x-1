@@ -1,4 +1,4 @@
-if game.Players.LocalPlayer.Name == "iRealKardes354"  then -- Whitelisted <-----------
+if game.Players.LocalPlayer.Name == "iRealKardes345"  then -- Whitelisted <-----------
 
 else
 game.Players.LocalPlayer:Kick("You Are Blacklisted. You Cant Use This Script Now") -- Kicks anyone without the name "ROBLOX"
