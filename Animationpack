@@ -344,7 +344,7 @@ GuiName.Position = UDim2.new(0.779854536, 0, 0.688481629, 0)
 GuiName.Size = UDim2.new(0.213309273, 0, 0.0265183728, 0)
 GuiName.Visible = false
 GuiName.Font = Enum.Font.Fantasy
-GuiName.Text = "| Network Animations GUI |"
+GuiName.Text = "| Animation Pack 2.0 |"
 GuiName.TextColor3 = Color3.new(0.831373, 0.831373, 0.831373)
 GuiName.TextScaled = true
 GuiName.TextSize = 16
@@ -695,7 +695,7 @@ S5.Text = "Around To Help"
 S6.Text = "Memeus V2"
 
 function OCC()
-if OCV == "Aç" then
+if OCV == "Open" then
 
 local tween1 = TweenService:Create(
     OC,--whatever should be tweened
