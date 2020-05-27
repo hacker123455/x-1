@@ -328,7 +328,7 @@ Ready.BorderSizePixel = 0
 Ready.Position = UDim2.new(0.780373991, 0, 0.656000018, 0)
 Ready.Size = UDim2.new(0.10700921, 0, 0.0179999992, 0)
 Ready.Font = Enum.Font.Fantasy
-Ready.Text = "Status: Not Ready"
+Ready.Text = "Durum: Hazır Değil"
 Ready.TextColor3 = Color3.new(0.831373, 0.831373, 0.831373)
 Ready.TextScaled = true
 Ready.TextSize = 16
@@ -672,7 +672,7 @@ InfoS.TextSize = 16
 InfoS.TextWrapped = true
 InfoS.TextXAlignment = Enum.TextXAlignment.Left
 
-MainInf.Name = "MainIn"
+MainInf.Name = "MainInf"
 MainInf.Parent = InfoG
 MainInf.BackgroundColor3 = Color3.new(1, 1, 1)
 MainInf.BackgroundTransparency = 1
@@ -710,9 +710,9 @@ wait(0.1)
 Main:TweenPosition(UDim2.new(0.306, 0 , 0.1, 0), 'InOut', 'Quint', 1, true)
 
 wait(1.5)
-OCV = "Kapalı"
+OCV = "Closed"
 
-elseif OCV == "Kapalı" then
+elseif OCV == "Closed" then
 
 local tween1 = TweenService:Create(
     OC,--whatever should be tweened
@@ -727,26 +727,26 @@ wait(0.1)
 Main:TweenPosition(UDim2.new(0.1, 0 , 0.1, 0), 'InOut', 'Quint', 1, true)
 
 wait(1.5)
-OCV = "Aç"
+OCV = "Open"
 
 end
 end
 
 function MainS()
-if TAV ~= "Ana Sayfa" then
+if TAV ~= "Main" then
 GuiName.Visible = true
 MainG.Visible = true
 InfoG.Visible = false
-TAV = "Ana Sayfa"
+TAV = "Main"
 end
 end
 
 function InfoS()
-if TAV ~= "Bilgi" then
+if TAV ~= "Info" then
 InfoG.Visible = true
 GuiName.Visible = false
 MainG.Visible = false
-TAV = "Bilgi"
+TAV = "Info"
 end
 end
 
