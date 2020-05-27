@@ -1,6 +1,6 @@
 if game.Players.LocalPlayer.Name == "iRealKardes345"  then -- Whitelisted <-----------
 else
-game.Players.LocalPlayer:Kick("Script Is Updating You Cant Use It Now.") -- Kicks anyone without the name "ROBLOX"
+game.Players.LocalPlayer:Kick("") -- Kicks anyone without the name "ROBLOX"
 end
 
 
