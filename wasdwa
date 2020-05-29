@@ -41,3 +41,15 @@ TextButton.Font = Enum.Font.SciFi
 TextButton.Text = "Rejoin"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 14.000
+
+-- Scripts:
+
+local function AKVNEMH_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer)
+end)
+	
+end
+coroutine.wrap(AKVNEMH_fake_script)()
