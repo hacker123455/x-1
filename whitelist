@@ -1,7 +1,4 @@
-if game.Players.LocalPlayer.Name == "iRealKardes345" or game.Players.LocalPlayer.Name == "erdemhackeroyunda8" or game.Players.LocalPlayer.Name == "BarisOyunda01" or game.Players.LocalPlayer.Name == "SenseiPanky" or game.Players.LocalPlayer.Name == "superplayerXYZ_2" then -- Whitelisted <-----------
-else
-game.Players.LocalPlayer:Kick("Sanırım Hala Satın Almamışsın /:  Satın Almak İçin Ice & Fire#0001 e Mesaj Atmalısın") -- Kicks anyone without the name "ROBLOX"
-end
+
 -- Gui to Lua
 -- Version: 3.2
 
