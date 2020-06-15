@@ -1,3 +1,6 @@
+-- haha try to exec this. lol not workin try another year.
+
+
 wait(3)
 
 local TweenService = game:GetService"TweenService"
